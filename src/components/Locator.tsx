@@ -24,7 +24,7 @@ function Locator() {
      setInputValue(e.target.value);
   }
 
-console.log(locationsData);
+
 
 
   useEffect(() => {
@@ -70,7 +70,6 @@ console.log(locationsData);
   const onClick = (e) => {
   
     setOffset(newoffset + 5);
-    console.log("newoffset", newoffset);
     setInputValue(  (document.getElementById("location-input") as HTMLInputElement).value)
    
     if (inputValue === "") {
@@ -105,7 +104,6 @@ console.log(locationsData);
           // setLoading(false);
           setlocationsData([...locationsData, ...newData]);
         }
-        console.log(newData.length)
         if (newoffset + data.response.entities.length>data.response.count) {
           document.getElementById("viewMoreBtn").classList.add("hidden");
         }
@@ -118,8 +116,6 @@ var Api="AIzaSyDZNQlSlEIkFAct5VzUtsP4dSbvOr2bE18";
 const geoclick=()=>{
   setOffset(5);
     navigator.geolocation.getCurrentPosition(function (position) {
-      console.log("Latitude is :", position.coords.latitude);
-      console.log("Longitude is :", position.coords.longitude);
       setcurrrentCordinate({lat:position.coords.latitude,lng: position.coords.longitude})
       // Geocode.setApiKey(Api);
       Geocode.fromLatLng(position.coords.latitude,position.coords.longitude).then(
@@ -216,7 +212,6 @@ const geoclick=()=>{
                   <button
                     type="submit"
                     onClick={(e) => {
-                      alert(";fgdsg")
                       setOffset(5);
                       let params = {
                         location:
@@ -231,8 +226,6 @@ const geoclick=()=>{
                           item.__distance = data.response.distances[index],
                           newData.push(item)
                         ));
-
-                        console.log('gdsfg',newData);
                         if (!data.errors) {
                           // setLoading(false);
                           setlocationsData(newData);

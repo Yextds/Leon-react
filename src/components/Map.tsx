@@ -37,7 +37,6 @@ function Map(props) {
   else{
     setCenter({lat:52.4583084,lng:1.5630376})
   }
-    console.log(props.currrentCordinate,'lkjlj')
     if(props.data.length > 0){
       setCenter({
         lat: props.data[0].yextDisplayCoordinate.latitude,
