@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "strict": false,
+    "moduleResolution": "Node",
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "react",
+    "outDir": "./dist",
+    "module": "esnext"
+  },
+  "include": ["src", "src/index.declare.ts"]
+}

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35">
+  <g id="Group_4" data-name="Group 4" transform="translate(0 0.41)">
+    <circle id="Ellipse_2" data-name="Ellipse 2" cx="17.5" cy="17.5" r="17.5" transform="translate(0 -0.41)" fill="#024b58"/>
+    <path id="Icon_awesome-map-marker-alt" data-name="Icon awesome-map-marker-alt" d="M6.28,18.29C.983,10.61,0,9.822,0,7A7,7,0,1,1,14,7c0,2.822-.983,3.61-6.28,11.29a.875.875,0,0,1-1.439,0ZM7,9.916A2.917,2.917,0,1,0,4.083,7,2.917,2.917,0,0,0,7,9.916Z" transform="translate(10 8)" fill="#fff"/>
+  </g>
+</svg>

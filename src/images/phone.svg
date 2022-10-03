@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35">
+  <g id="Group_83" data-name="Group 83" transform="translate(0 20.089)">
+    <circle id="Ellipse_2" data-name="Ellipse 2" cx="17.5" cy="17.5" r="17.5" transform="translate(0 -20.089)" fill="#024b58"/>
+    <path id="Icon_awesome-mobile-alt" data-name="Icon awesome-mobile-alt" d="M7.778,0H1.373A1.373,1.373,0,0,0,0,1.373v11.9a1.373,1.373,0,0,0,1.373,1.373H7.778A1.373,1.373,0,0,0,9.15,13.268V1.373A1.373,1.373,0,0,0,7.778,0Zm-3.2,13.726a.915.915,0,1,1,.915-.915A.914.914,0,0,1,4.575,13.726Zm3.2-3.088a.344.344,0,0,1-.343.343H1.716a.344.344,0,0,1-.343-.343V1.716a.344.344,0,0,1,.343-.343H7.435a.344.344,0,0,1,.343.343Z" transform="translate(13 -10)" fill="#fff"/>
+  </g>
+</svg>
